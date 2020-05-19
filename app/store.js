@@ -6,7 +6,7 @@ let _state = {
   activeValue: new Value({ title: "Value" }),
   /** @type {Value[]} */
   values: [],
-  houses: []
+
 };
 
 /** Collection of listeners to be called based on keyed state changes
@@ -15,7 +15,7 @@ let _state = {
 let _listeners = {
   activeValue: [],
   values: [],
-  houses: []
+
 };
 
 //NOTE You should not need to change the code from this point down
